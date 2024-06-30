@@ -12,7 +12,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import Typewriter from 'typewriter-effect';
 import Swal from 'sweetalert2';
 
-const apiKey = 'AIzaSyAOKHtaHRiG_43QeguxSl9PByiwpVi4dL8';
+const apiKey = 'API_KEY';
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
