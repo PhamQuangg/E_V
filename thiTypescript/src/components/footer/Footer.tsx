@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="content-footer row footer-main">
                         <div className="scale-left col-md-3 col-sm-3 col-xs-12">
-                            <p className="title-information">Về ViE</p>
+                            <p className="title-information">Về Trang Web</p>
                             <ul className="list-menu-footer">
                                 <li>
                                     <a href="mailto:support@mazii.net" className="cl-tt">
@@ -132,26 +132,6 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href="//mazii.net/guide/chinh-sach-van-chuyen.html"
-                                        rel="noopener"
-                                        target="_blank"
-                                        className="cl-tt"
-                                    >
-                                        Chính sách vận chuyển, giao nhận
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="//mazii.net/guide/chinh-sach-kiem-hang.html"
-                                        rel="noopener"
-                                        target="_blank"
-                                        className="cl-tt"
-                                    >
-                                        Chính sách kiểm hàng
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
                                         href="//mazii.net/guide/chinh-sach-bao-mat-thong-tin.html"
                                         rel="noopener"
                                         target="_blank"
@@ -160,40 +140,7 @@ const Footer = () => {
                                         Chính sách bảo mật thông tin cá nhân
                                     </a>
                                 </li>
-                                <li>
-                                    <a
-                                        href="//mazii.net/guide/giai-quyet-khieu-nai.html"
-                                        rel="noopener"
-                                        target="_blank"
-                                        className="cl-tt"
-                                    >
-                                        Quy trình tiếp nhận và giải quyết khiếu nại
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="//mazii.net/guide/chinh-sach-doi-tra.html"
-                                        rel="noopener"
-                                        target="_blank"
-                                        className="cl-tt"
-                                    >
-                                        Chính sách đổi trả, hoàn tiền
-                                    </a>
-                                </li>
                             </ul>
-                            <p className="title-information">Tính năng khác</p>
-                            <ul className="list-menu-footer">
-                                <li>
-                                    <a rel="noopener" className="cl-tt" href="/vi-VN/convert-name">
-                                        Chuyển tên
-                                    </a>
-                                </li>
-                            </ul>
-                            {/**/}
-                            {/**/}
-                            {/**/}
-                            {/**/}
-                            {/**/}
                         </div>
                         <div className="scale-center col-md-3 col-sm-3 col-xs-12">
                             <p className="title-information">Liên hệ với chúng tôi</p>
@@ -266,74 +213,7 @@ const Footer = () => {
                                     </a>
                                 </li>
                             </ul>
-                            <p className="title-information">Tiện ích</p>
-                            <ul className="list-icon list-menu-footer">
-                                <li>
-                                    <a
-                                        href="https://chrome.google.com/webstore/detail/japanese-translate-dictio/lkjffochdceoneajnigkbdddjdekhojj"
-                                        target="_blank"
-                                        rel="noopener"
-                                    >
-                                        <img
-                                            src="https://mazii.net/assets/imgs/icon/ic_chrome.png"
-                                            alt="icon"
-                                            width={40}
-                                            height={41}
-                                            title="chrome"
-                                        />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="https://apps.apple.com/us/app/japanese-dictionary-mazii/id1579624904"
-                                        target="_blank"
-                                        rel="noopener"
-                                    >
-                                        <img
-                                            src="https://mazii.net/assets/imgs/icon/ic_safari_color.png"
-                                            alt="icon"
-                                            width={44}
-                                            height={44}
-                                            title="safari"
-                                        />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="https://addons.mozilla.org/vi/firefox/addon/japanese-dictionary-mazii/"
-                                        target="_blank"
-                                        rel="noopener"
-                                    >
-                                        <img
-                                            src="https://mazii.net/assets/imgs/icon/ic_firefox_color.png"
-                                            alt="icon"
-                                            width={44}
-                                            height={44}
-                                            title="firefox"
-                                            className="pd-cust1-1"
-                                        />
-                                    </a>
-                                </li>
-                            </ul>
                         </div>
-                    </div>
-                    <Divider />
-                    <div className="content-footer txt-small-footer bd-t3">
-                        <p className="name-company">CÔNG TY CỔ PHẦN CÔNG NGHỆ EUP </p>
-                        <p>
-                            {' '}
-                            Địa chỉ trụ sở: Phòng 802, Tầng 8, Toà nhà 315 Trường Chinh, Phường Khương Mai, Quận Thanh
-                            Xuân, Thành phố Hà Nội, Việt Nam{' '}
-                        </p>
-                        <p className="infor-company">
-                            Mã số thuế: 0107482236 do Sở Kế hoạch và Đầu tư Thành phố Hà Nội cấp ngày 23/06/2016.
-                        </p>
-                        <p className="infor-company">
-                            Giấy phép số: 67/GP-BTTTT do Bộ Thông tin và Truyền thông cấp ngày 02 tháng 02 năm 2018;
-                        </p>
-                        {/**/}
-                        {/**/}
-                        <p className="copyright"> Copyright © 2016 </p>
                     </div>
                 </div>
             </div>

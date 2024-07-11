@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors());
 app.use("/api", authRouter);
-app.use("/api", translateRouter);
+app.use("/api", translateRouter); //   /api/translate == 
 app.use("/api", postRouter);
 
 translate({ from: "en", to: "vi" })

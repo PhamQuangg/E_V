@@ -12,7 +12,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import Typewriter from 'typewriter-effect';
 import Swal from 'sweetalert2';
 
-const apiKey = 'API_KEY';
+const apiKey = 'AIzaSyB0TSy9ma9ArMS8MfWrn7OuEqmFU98y_Hk';
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
@@ -70,7 +70,6 @@ const Chat = ({
         }
 
         const textInput = inputText.toLowerCase().includes('nghĩa là');
-
         if (textInput) {
             const text = inputText.toLowerCase().split('nghĩa là')[0];
             if (text) {
@@ -92,6 +91,10 @@ const Chat = ({
                     }
                 }
             }
+        }
+
+        if (setTextSearchSuggestions) {
+            setTextSearchSuggestions('');
         }
     }, [inputText]);
 
